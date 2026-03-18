@@ -31,7 +31,7 @@ var
 begin
   with pnl.Create(sb) as TPanel
   begin
-  //
+  // sample
   end;
 
 end;
