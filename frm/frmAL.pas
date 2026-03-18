@@ -45,6 +45,7 @@ implementation
 procedure TAL.FormCreate(Sender: TObject);
 begin
   init;
+  sb.Cursor := crCross;
 end;
 
 procedure TAL.bStClick(Sender: TObject);
@@ -127,6 +128,7 @@ begin
      end;
   end;
 end;
+
 
 procedure TAL.spawnPanel;
 var
